@@ -1,0 +1,138 @@
+*{
+    margin: auto;
+    
+    padding: auto;
+    box-sizing: border-box;
+    width: 80%;
+}
+.container{
+    margin: 20px; 
+}
+.container h1{
+   /* color: rgb(0, 183, 255); */
+   
+   padding: 10px;
+}
+/* h1 gradient function */
+h1 {
+    color: #af4261;
+    background-image: linear-gradient(
+        
+    30deg,
+        #ff557f,
+        #38affe,
+        #6cf360,
+        #e563f6
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-flow-into: 4em;
+    font-weight: bold;
+}
+
+
+.container p{
+    padding: 10px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.input-field{
+    padding: 10px;
+    
+}
+.input-field input{
+    /* width: 100%; */
+    height: 70px;
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 5px;
+}
+
+.searchButton{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    animation-name: expand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+}
+@keyframes expand {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  /* At 50% of the animation cycle, shrink slightly and fade */
+  50% {
+  
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* button gradient function */
+.searchButton{ 
+    background-image: linear-gradient(
+        60deg,
+        #f18980 0%,
+        #87c6fc 40%,
+        #8cff7fa2 70%,
+        #93faff 100%
+        
+    );
+    
+    border: none;
+    color: white;
+    padding: 10px 20px;
+   
+}
+/* button aninmation function */
+.searchButton :hover{
+    transform: scale(1.1);
+    
+}
+
+
+
+.output-field{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
